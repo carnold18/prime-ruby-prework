@@ -6,5 +6,5 @@ def prime? n
       return true
     end
   end
-  return false
+  return true
 end
