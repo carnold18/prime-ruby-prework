@@ -7,4 +7,5 @@ def prime? n
     elsif 
       return true
     end
+  end
 end
