@@ -5,7 +5,7 @@ def prime? n
     if (n % i) == 0
       return false
     elsif 
-      return true
     end
   end
+  true
 end
