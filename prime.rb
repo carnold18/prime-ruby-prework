@@ -1,10 +1,10 @@
 # Add  code here!
 
 def prime?(n)
-  for i in 2..(n-1)
-    if (n % i) == 0
-      return false
-    end
+  if n <=0 || n == 0 || n == 1 
+    return false  
+  else 
+    (2..n-1).to_a.all? do |x| n % x != 0 
+   end
   end
-  return true
 end
